@@ -1,0 +1,61 @@
+.item-container {
+  border: 1px solid #c3caea;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .item-container {
+    max-width: 300px;
+  }
+}
+.dp-container {
+  background-color: #10b981;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+.names-text {
+  color: white;
+  font-size: 15px;
+  margin: 0px;
+}
+.dp-names-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .delete {
+    width: 40px;
+    height: 40px;
+  }
+}
+.delete-container {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.stars {
+  width: 50px;
+}
+.names-container{
+  margin-left: 10px;
+}
